@@ -1,19 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace practice
 {
-    public partial class Form1 : Form
+    public partial class Main : Form
     {
-        public Form1()
+        public Main()
         {
             InitializeComponent();
             comboBox1.Items.Add("sin");
@@ -46,6 +38,9 @@ namespace practice
             }
         }
 
-       
-    }
+		private void Main_Load(object sender, EventArgs e)
+		{
+
+		}
+	}
 }
